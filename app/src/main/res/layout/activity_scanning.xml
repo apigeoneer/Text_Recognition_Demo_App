@@ -9,53 +9,58 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="40dp"
-        tools:context=".MainActivity">
+        android:padding="30dp">
 
         <ImageView
             android:id="@+id/scanning_image_view"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
             android:contentDescription="@string/text_scanning_image"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
             android:src="@drawable/ic_empty_image" />
 
         <TextView
-            android:id="@+id/generatedtext_text_view"
+            android:id="@+id/generatedText_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
-            android:background="#F2F2F2"
+            android:background="#f0f0f0"
             android:fontFamily="@font/roboto"
             android:gravity="center"
-            android:paddingTop="24dp"
-            android:paddingBottom="24dp"
-            android:text="@string/generatedtext_text"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/generatedText_text"
             android:textAlignment="center"
-            android:textColor="#878787"
+            android:textColor="#989898"
             android:textSize="15sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/getstarted_button"
+            android:id="@+id/takeAPic_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="32dp"
             android:layout_marginBottom="12dp"
-            android:background="@drawable/button_bg"
+            android:background="@drawable/button_bg2"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:textColor="#545454"
             android:text="@string/take_a_picture"
-            app:backgroundTint="#3366ff" />
+            app:backgroundTint="#ffcc00" />
 
         <Button
-            android:id="@+id/detectnow_text_view"
+            android:id="@+id/detectNow_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/detect_now"
-            android:background="@drawable/button_bg"
-            app:backgroundTint="#3366ff"
-            android:layout_marginBottom="40dp" />
+            android:background="@drawable/button_bg2"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:textColor="#545454"
+            app:backgroundTint="#ffcc00"
+            android:layout_marginBottom="48dp" />
 
     </LinearLayout>
 
