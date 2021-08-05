@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun navigateToScanningActivity() {
-        binding.getstartedButton.setOnClickListener {
+        binding.getStartedButton.setOnClickListener {
             val intent = Intent(this, ScanningActivity::class.java)
             startActivity(intent)
         }
